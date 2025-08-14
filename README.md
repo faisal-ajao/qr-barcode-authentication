@@ -69,4 +69,6 @@ qr-barcode-authentication/
 This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
 
 ## Install dependencies
-pip install opencv-python numpy pyzbar
+```bash
+pip install -r requirements.txt
+```
