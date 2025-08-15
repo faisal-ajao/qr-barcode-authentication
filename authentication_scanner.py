@@ -3,7 +3,7 @@ import numpy as np
 from pyzbar.pyzbar import decode  # Library for decoding QR codes and barcodes
 
 # Initialize webcam (index 1 — may be external camera)
-webcam = cv2.VideoCapture(1)
+webcam = cv2.VideoCapture(0)
 
 # Load list of authorized QR/Barcode data from file
 with open(file="authentication_data.txt") as file:
@@ -83,3 +83,4 @@ while True:
 # Release resources and close windows
 webcam.release()
 cv2.destroyAllWindows()
+
