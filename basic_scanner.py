@@ -3,7 +3,7 @@ import numpy as np
 from pyzbar.pyzbar import decode  # Library for decoding QR codes and barcodes
 
 # Initialize webcam (index 1 — may be external camera)
-webcam = cv2.VideoCapture(1)
+webcam = cv2.VideoCapture(0)
 
 
 # Dummy callback function for trackbar (required by OpenCV)
@@ -70,3 +70,4 @@ while True:
 # Release resources and close windows
 webcam.release()
 cv2.destroyAllWindows()
+
