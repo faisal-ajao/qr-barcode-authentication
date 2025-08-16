@@ -58,7 +58,7 @@ qr-barcode-authentication/
 ---
 
 ## 🧠 Tech Stack
-- Python 3.x
+- Python 3.11.5
 - OpenCV
 - Pyzbar
 - NumPy
