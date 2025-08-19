@@ -20,7 +20,7 @@ It can work in two modes:
 
 ```bash
 # Clone the repository
-git clone https://github.com/AjaoFaisal/qr-barcode-authentication.git
+git clone https://github.com/faisal-ajao/qr-barcode-authentication.git
 cd qr-barcode-authentication
 ```
 
