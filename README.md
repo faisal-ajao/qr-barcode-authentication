@@ -1,4 +1,4 @@
-# 🔐 QR & Barcode Authentication
+# QR & Barcode Authentication
 
 This project uses **OpenCV** and **Pyzbar** to scan QR codes and barcodes in real-time from a webcam feed.  
 It can work in two modes:  
@@ -7,7 +7,7 @@ It can work in two modes:
 
 ---
 
-## 🚀 Features
+## Features
 - Real-time QR/Barcode scanning from webcam
 - Adjustable brightness using an on-screen trackbar
 - Polygon overlay on detected codes
@@ -16,7 +16,7 @@ It can work in two modes:
 
 ---
 
-## 📦 Installation
+## Installation
 
 ```bash
 # Clone the repository
@@ -24,7 +24,7 @@ git clone https://github.com/faisal-ajao/qr-barcode-authentication.git
 cd qr-barcode-authentication
 ```
 
-## ▶️ Usage
+## Usage
 
 ### **1. Basic QR/Barcode Scanner**
 ```bash
@@ -39,12 +39,12 @@ python authentication_scanner.py
 
 ---
 
-## 📊 Output Example (Video)
+## Output Example (Video)
 [![Watch the output](https://img.youtube.com/vi/rwAKQziR8cU/hqdefault.jpg)](https://youtu.be/rwAKQziR8cU?feature=shared)
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 ```
 qr-barcode-authentication/
 │
@@ -57,7 +57,7 @@ qr-barcode-authentication/
 
 ---
 
-## 🧠 Tech Stack
+## Tech Stack
 - Python 3.11.5
 - OpenCV
 - Pyzbar
@@ -65,7 +65,7 @@ qr-barcode-authentication/
 
 ---
 
-## 📜 License
+## License
 This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
 
 ## Install dependencies
